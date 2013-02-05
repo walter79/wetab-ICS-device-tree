@@ -1,9 +1,20 @@
-This is an experimental device tree for creating an Android ICS 4.0.3 image
+This is an experimental device tree for creating an Android ICS 4.0.X image
 for the wetab tablet.
 
 device/pegatron/wetab/
 
-Its more like a Proof of Concept then production code.
+Until I find a way to patch the kernel from a device tree in a nice way,
+
+I will put modified source in this directory.
+Just copy them to the kernel tree.
+
+device/pegatron/kernel_mods/asus-laptop/asus-laptop.c --> kernel/drivers/platform/x86/asus-laptop.c
+device/pegatron/kernel_mods/ath3k/ath3k.c --> kernel/drivers/bluetooth/ath3k.c
+device/pegatron/kernel_mods/btusb/btus.c --> kernel/drivers/bluetooth/btusb.c
+device/pegatron/kernel_mods/hid-multitouch/hid-multitouch.c --> kernel/drivers/hid/hid-multitouch.c
+device/pegatron/kernel_mods/hid-multitouch/hid-ids.c --> kernel/drivers/hid/hid-ids.c
+device/pegatron/kernel_mods/hid-multitouch/usbhid.c --> kernel/drivers/hid/usbhid.c
+device/pegatron/kernel_mods/suspend.c --> kernel/kernel/power/suspend.c
 
 
 
