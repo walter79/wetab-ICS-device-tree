@@ -6,4 +6,6 @@ kernel/drivers/platform/x86/asus-laptop.c
 kernel/drivers/bluetooth/ath3k.c
 kernel/drivers/bluetooth/btusb.c
 kernel/drivers/hid/hid-multitouch.c
+kernel/drivers/hid/hid-ids.c
+kernel/drivers/hid/usbhid.c
 kernel/kernel/power/suspend.c
