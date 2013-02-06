@@ -1,7 +1,7 @@
 PRODUCT_PACKAGES := $(THIRD_PARTY_APPS)
 PRODUCT_PACKAGES += sensors.$(TARGET_PRODUCT)
 PRODUCT_PACKAGES += gps.$(TARGET_PRODUCT)
-PRODUCT_PACKAGES += libhuaweigeneric-ril
+#PRODUCT_PACKAGES += libhuaweigeneric-ril
 PRODUCT_PACKAGES += wetab_powerbtnd
 PRODUCT_PACKAGES += pppd
 PRODUCT_PACKAGES += Bluetooth Superuser Development android-common-carousel
